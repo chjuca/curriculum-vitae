@@ -41,6 +41,9 @@ export class SkillsComponent implements OnInit {
             }
           }
         },
+        stroke: {
+          lineCap: "round",
+        },
         labels: ["Javascript"]
       },
       {
@@ -55,6 +58,9 @@ export class SkillsComponent implements OnInit {
               size: "60%"
             }
           }
+        },
+        stroke: {
+          lineCap: "round",
         },
         labels: ["Node.js"]
       },
@@ -71,9 +77,15 @@ export class SkillsComponent implements OnInit {
             }
           }
         },
+        stroke: {
+          lineCap: "round",
+        },
         labels: ["Angular"]
       }
     ]
+
+    // Revisar >>
+    // https://apexcharts.com/docs/options/plotoptions/radialbar/
 
 
     // this.chartOptions = {

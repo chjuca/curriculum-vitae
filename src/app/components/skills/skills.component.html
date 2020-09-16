@@ -3,8 +3,8 @@
         <h2><strong>Habilidades</strong> </h2>
         <div class="row justify-content-around">
             <div *ngFor="let skill of this.skills" id="chart">
-                <apx-chart [series]="skill.series" [chart]="skill.chart" [plotOptions]="skill.plotOptions"
-                    [labels]="skill.labels"></apx-chart>
+                <apx-chart [stroke]="skill.stroke" [series]="skill.series" [chart]="skill.chart"
+                    [plotOptions]="skill.plotOptions" [labels]="skill.labels"></apx-chart>
             </div>
         </div>
     </div>
