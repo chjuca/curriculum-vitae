@@ -1,6 +1,11 @@
 <div class="container p-4">
-    <div class="column p-2 justify-content-center rounded-0">
-        <h2> Habilidades </h2>
-
+    <div class="column justify-content-center rounded-0">
+        <h2><strong>Habilidades</strong> </h2>
+        <div class="row justify-content-around">
+            <div *ngFor="let skill of this.skills" id="chart">
+                <apx-chart [series]="skill.series" [chart]="skill.chart" [plotOptions]="skill.plotOptions"
+                    [labels]="skill.labels"></apx-chart>
+            </div>
+        </div>
     </div>
 </div>
