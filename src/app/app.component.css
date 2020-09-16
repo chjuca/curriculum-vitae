@@ -1,0 +1,12 @@
+.bg {
+  background-image: url("../assets/background.jpg");
+  /* Half height */
+  height: 50%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: scroll;
+}

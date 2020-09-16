@@ -7,13 +7,15 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { DescriptionComponent } from './components/description/description.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     DescriptionComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

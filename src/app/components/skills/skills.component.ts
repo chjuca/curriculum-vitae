@@ -37,9 +37,27 @@ export class SkillsComponent implements OnInit {
         plotOptions: {
           radialBar: {
             hollow: {
-              size: "60%"
+              size: "60%",
+            },
+            dataLabels: {
+              name: {
+                color: "#FFFFFF",     // color del titulo
+                fontFamily: 'Roboto',   // letra del titulo
+                fontWeight: 'bold',
+              },
+              value: {
+                color: "#FFFFFF",     // color del porcentaje
+                fontFamily: 'Roboto'
+              },
+            },
+            track: {
+              background: '#181f4b',  // color vacio
             }
           }
+        },
+        fill: {
+          opacity: 1.5,
+          colors: ['#ffffff'],      // color del fondo lleno
         },
         stroke: {
           lineCap: "round",
@@ -55,9 +73,27 @@ export class SkillsComponent implements OnInit {
         plotOptions: {
           radialBar: {
             hollow: {
-              size: "60%"
+              size: "60%",
+            },
+            dataLabels: {
+              name: {
+                color: "#FFFFFF",     // color del titulo
+                fontFamily: 'Roboto',   // letra del titulo
+                fontWeight: 'bold',
+              },
+              value: {
+                color: "#FFFFFF",     // color del porcentaje
+                fontFamily: 'Roboto'
+              },
+            },
+            track: {
+              background: '#181f4b',  // color vacio
             }
           }
+        },
+        fill: {
+          opacity: 1.5,
+          colors: ['#ffffff'],      // color del fondo lleno
         },
         stroke: {
           lineCap: "round",
@@ -73,9 +109,27 @@ export class SkillsComponent implements OnInit {
         plotOptions: {
           radialBar: {
             hollow: {
-              size: "60%"
+              size: "60%",
+            },
+            dataLabels: {
+              name: {
+                color: "#FFFFFF",     // color del titulo
+                fontFamily: 'Roboto',   // letra del titulo
+                fontWeight: 'bold',
+              },
+              value: {
+                color: "#FFFFFF",     // color del porcentaje
+                fontFamily: 'Roboto'
+              },
+            },
+            track: {
+              background: '#181f4b',  // color vacio
             }
           }
+        },
+        fill: {
+          opacity: 1.5,
+          colors: ['#ffffff'],      // color del fondo lleno
         },
         stroke: {
           lineCap: "round",

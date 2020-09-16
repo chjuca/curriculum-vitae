@@ -1,9 +1,11 @@
-<div class="container p-4">
-    <div class="column justify-content-center rounded-0">
-        <h2><strong>Habilidades</strong> </h2>
+<div class="container p-2 ">
+    <div class="column bg-color text-white p-4 justify-content-center">
+        <div>
+            <h2><strong>Habilidades</strong></h2>
+        </div>
         <div class="row justify-content-around">
             <div *ngFor="let skill of this.skills" id="chart">
-                <apx-chart [stroke]="skill.stroke" [series]="skill.series" [chart]="skill.chart"
+                <apx-chart [fill]="skill.fill" [stroke]="skill.stroke" [series]="skill.series" [chart]="skill.chart"
                     [plotOptions]="skill.plotOptions" [labels]="skill.labels"></apx-chart>
             </div>
         </div>
