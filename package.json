@@ -23,6 +23,7 @@
     "@popperjs/core": "^2.4.4",
     "apexcharts": "^3.20.2",
     "bootstrap": "^4.5.2",
+    "github-calendar": "^2.2.3",
     "jquery": "^3.5.1",
     "ng-apexcharts": "^1.5.1",
     "rxjs": "~6.4.0",

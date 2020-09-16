@@ -8,6 +8,7 @@ import { DescriptionComponent } from './components/description/description.compo
 import { SkillsComponent } from './components/skills/skills.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { GitComponent } from './components/git/git.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ProfileComponent,
     DescriptionComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    GitComponent
   ],
   imports: [
     BrowserModule,
