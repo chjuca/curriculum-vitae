@@ -24,6 +24,7 @@ export class SkillsComponent implements OnInit {
   @ViewChild("chart", { static: true }) chart: ChartComponent;
   public chartOptions: Partial<ChartOptions>;
   skills = [];
+  emptyColor = "#2e667e";
 
   constructor() {
 
@@ -51,7 +52,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: '#181f4b',  // color vacio
+              background: this.emptyColor,  // color vacio
             }
           }
         },
@@ -87,7 +88,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: '#181f4b',  // color vacio
+              background: this.emptyColor,  // color vacio
             }
           }
         },
@@ -123,7 +124,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: '#181f4b',  // color vacio
+              background: this.emptyColor,  // color vacio
             }
           }
         },

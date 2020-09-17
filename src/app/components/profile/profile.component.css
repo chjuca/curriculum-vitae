@@ -13,6 +13,16 @@ small {
   color: #999;
 }
 
+/* .bg-color {
+  background-color: #2e667e;
+} */
+
 .bg-color {
-  background-color: #181f4b;
+  /* background-color: #ffffff; */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10%;
+}
+
+.font-dark {
+  color: black;
 }

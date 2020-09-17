@@ -1,6 +1,12 @@
 .bg {
-  background-image: url("../assets/background.jpg");
+  /* background-image: url("../assets/background.jpg"); */
+  /* background-color: #2e667e; */
   /* Half height */
+  background: -webkit-linear-gradient(#346484, #04848c);
+  background: -moz-linear-gradient(#346484, #04848c);
+  background: -ms-linear-gradient(#346484, #04848c);
+  background: -o-linear-gradient(#346484, #04848c);
+  background: linear-gradient(#346484, #04848c);
   height: 50%;
 
   /* Center and scale the image nicely */
@@ -10,3 +16,6 @@
   background-attachment: fixed;
   overflow: scroll;
 }
+
+/* #346484
+#04848c */
