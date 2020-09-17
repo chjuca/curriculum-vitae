@@ -52,7 +52,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: this.emptyColor,  // color vacio
+              show: false,
             }
           }
         },
@@ -88,7 +88,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: this.emptyColor,  // color vacio
+              show: false,
             }
           }
         },
@@ -124,7 +124,7 @@ export class SkillsComponent implements OnInit {
               },
             },
             track: {
-              background: this.emptyColor,  // color vacio
+              show: false,
             }
           }
         },

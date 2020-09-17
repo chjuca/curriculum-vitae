@@ -1,19 +1,21 @@
 <div class="container p-2">
     <div class="column-list p-4 justify-content-center">
-        <div class="text-white pb-3">
+        <div class="pb-3">
             <h2><strong> Proyectos </strong> </h2>
         </div>
         <div class="card-columns">
-            <div class="card" *ngFor="let project of projects">
-                <img class="card-img-top" src="{{project.image}}" alt="{{project.title}}">
-                <div class="card-body">
-                    <h5 class="card-title">{{project.title}}</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">{{project.role}}</h6>
-                    <p class="card-text">{{project.description}}</p>
-                </div>
-                <div class="card-footer">
-                    <small class="text-muted">{{project.time}}</small>
-                </div>
+            <div class="card zoom" *ngFor="let project of projects">
+                <a href="{{project.url}}">
+                    <img class="card-img-top" src="{{project.image}}" alt="{{project.title}}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{project.title}}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">{{project.role}}</h6>
+                        <p class="card-text">{{project.description}}</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">{{project.time}}</small>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

@@ -2,20 +2,21 @@
   /* background-image: url("../assets/background.jpg"); */
   /* background-color: #2e667e; */
   /* Half height */
-  background: -webkit-linear-gradient(#346484, #04848c);
-  background: -moz-linear-gradient(#346484, #04848c);
-  background: -ms-linear-gradient(#346484, #04848c);
-  background: -o-linear-gradient(#346484, #04848c);
-  background: linear-gradient(#346484, #04848c);
+  background: -webkit-linear-gradient(#346484, #13a6b1);
+  background: -moz-linear-gradient(#346484, #13a6b1);
+  background: -ms-linear-gradient(#346484, #13a6b1);
+  background: -o-linear-gradient(#346484, #13a6b1);
+  background: linear-gradient(#346484, #13a6b1);
   height: 50%;
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: repeat-y;
+  /* background-repeat: repeat-y; */
   background-size: cover;
   background-attachment: fixed;
   overflow: scroll;
 }
 
 /* #346484
-#04848c */
+#04848c
+#4b83a8 */

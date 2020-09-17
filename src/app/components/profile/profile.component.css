@@ -19,8 +19,7 @@ small {
 
 .bg-color {
   /* background-color: #ffffff; */
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 10%;
+  background: rgba(255, 255, 255, 0.55);
 }
 
 .font-dark {

@@ -1,4 +1,14 @@
 .bg-color {
   /* background-color: #ffffff; */
-  background: rgba(255, 255, 255);
+  background: rgba(172, 172, 172, 0.2);
+}
+
+.zoom {
+  transition: transform 0.4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }

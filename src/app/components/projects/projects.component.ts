@@ -30,7 +30,8 @@ export class ProjectsComponent implements OnInit {
         title: "Laboratorio Ascendere | UTPL",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia modi culpa tenetur molestiae provident voluptatibus minima? Itaque asperiores aliquid deleniti officiis dolorum qui laudantium quae corrupti accusantium autem, laborum sint",
         role: "Pasante Gestion Productiva",
-        time: "Abril 2019 - presente"
+        time: "Abril 2019 - presente",
+        url: "https://web-sg-ascendere.firebaseapp.com/"
       },
     ]
   }
