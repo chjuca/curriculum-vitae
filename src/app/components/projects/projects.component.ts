@@ -28,9 +28,9 @@ export class ProjectsComponent implements OnInit {
       {
         image: "../../../assets/ascendere.png",
         title: "Laboratorio Ascendere | UTPL",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia modi culpa tenetur molestiae provident voluptatibus minima? Itaque asperiores aliquid deleniti officiis dolorum qui laudantium quae corrupti accusantium autem, laborum sint",
+        description: "Desarrollo y mantenimiento a la página web ASCENDERE y desarrollo de Backend en Node.js para gestión de contenido para la unificación de los CMS en Angular 9",
         role: "Pasante Gestion Productiva",
-        time: "Abril 2019 - presente",
+        time: "7/Oct/2019 - presente",
         url: "https://web-sg-ascendere.firebaseapp.com/"
       },
     ]

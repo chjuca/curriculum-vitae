@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class DescriptionComponent implements OnInit {
 
 
-  description = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quod quam dignissimos ullam vitae illo dolores consequatur enim qui corrupti, maxime ab dolore obcaecati cum voluptate nisi modi, fugit esse Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur maxime id facilis molestias totam reiciendis vel, magni asperiores accusamus odit perferendis optio eius nulla? Voluptate consectetur ut repellendus architecto eligendi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, eveniet dicta exercitationem molestiae fuga odit labore ipsam est nobis cumque corrupti alias quos ratione cum illo debitis aliquid dolorum soluta."
+  description = "Soy una persona que está acostumbrada al trabajo en equipo y  bajo presión. Hasta la actualidad me he formado por mi cuenta en Backend y Frontend, aun que considero que tengo mas conocimientos y gusto por el Backend. \nTambién considero que tengo cualidades resolutivas, con un buen  ánimo y capaz de resolver problemas dentro del entorno en el que me encuentre."
+  hobby = "En mi tiempo libre me gusta aprender sobre nuevas tecnologías e investigar temas interesantes";
 
   constructor() { }
 
