@@ -66,6 +66,42 @@ export class SkillsComponent implements OnInit {
         labels: ["Javascript"]
       },
       {
+        series: [70],
+        chart: {
+          height: 300,
+          type: "radialBar"
+        },
+        plotOptions: {
+          radialBar: {
+            hollow: {
+              size: "60%",
+            },
+            dataLabels: {
+              name: {
+                color: "#FFFFFF",     // color del titulo
+                fontFamily: 'Roboto',   // letra del titulo
+                fontWeight: 'bold',
+              },
+              value: {
+                color: "#FFFFFF",     // color del porcentaje
+                fontFamily: 'Roboto'
+              },
+            },
+            track: {
+              show: false,
+            }
+          }
+        },
+        fill: {
+          opacity: 1.5,
+          colors: ['#ffffff'],      // color del fondo lleno
+        },
+        stroke: {
+          lineCap: "round",
+        },
+        labels: ["Javascript"]
+      },
+      {
         series: [60],
         chart: {
           height: 300,
