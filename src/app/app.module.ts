@@ -9,6 +9,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { NgApexchartsModule } from 'ng-apexcharts';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { GitComponent } from './components/git/git.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GitComponent } from './components/git/git.component';
     DescriptionComponent,
     SkillsComponent,
     ProjectsComponent,
-    GitComponent
+    GitComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
