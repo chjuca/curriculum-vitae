@@ -12,18 +12,18 @@ export class ProjectsComponent implements OnInit {
   constructor() {
     this.projects = [
       {
-        image: "../../../assets/project-test-2.jpg",
-        title: "Lorem ipsum | Dolor Sit",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia modi culpa tenetur molestiae provident voluptatibus minima? Itaque asperiores aliquid deleniti officiis dolorum qui laudantium quae corrupti accusantium autem, laborum sint",
-        role: "Amet consectetur adipisicing elit",
-        time: "Abril 2018 - Agosto 2019"
+        image: "../../../assets/ascendere.png",
+        title: "Laboratorio Ascendere | UTPL",
+        description: "Desarrollo y mantenimiento a la página web ASCENDERE mediante tecnología Angular 9 y conexion a la Base de Datos Firebase",
+        role: "Desarrollador Backend",
+        time: "7/Abril/2020 - 5/Agosto/2021"
       },
       {
         image: "../../../assets/project-test.jpg",
-        title: "Officia modi culpa tenetur | Amet consectetu",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia modi culpa tenetur molestiae provident voluptatibus minima? Itaque asperiores aliquid deleniti officiis dolorum qui laudantium quae corrupti accusantium autem, laborum sint",
-        role: "Pasante Gestion Productiva",
-        time: "Agosto 2012 - Abril 2020"
+        title: "Desarrollo Backend | ExmerDev",
+        description: "Desarrollo y mantenimiento de microservicios en Spring Cloud, para la creacion de un CRM",
+        role: "Pasante/ Desarrollador Backend",
+        time: "Fecbro 2021 - Mayo 2021"
       },
       {
         image: "../../../assets/ascendere.png",
